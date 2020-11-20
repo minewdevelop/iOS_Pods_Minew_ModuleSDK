@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MTModuleKit_Example' do
+  pod 'MTModuleKit', :path => '../'
+
+  target 'MTModuleKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

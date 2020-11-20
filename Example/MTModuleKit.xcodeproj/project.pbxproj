@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B062B9EFDCFF62BD222089 /* MTModuleKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MTModuleKit.podspec; path = ../MTModuleKit.podspec; sourceTree = "<group>"; };
+		00B062B9EFDCFF62BD222089 /* MTModuleKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MTModuleKit.podspec; path = ../MTModuleKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		144AA42691662F7D0BC5AF07 /* Pods_MTModuleKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTModuleKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2578ABE442CFF0A3874C64A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		280FCB2788829EA0C65A7EFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2578ABE442CFF0A3874C64A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		280FCB2788829EA0C65A7EFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		29921FDEC0B5D8D531944098 /* Pods-MTModuleKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTModuleKit_Example.release.xcconfig"; path = "Target Support Files/Pods-MTModuleKit_Example/Pods-MTModuleKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4F4F1A29CFA1ED0FC7639AE6 /* Pods_MTModuleKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTModuleKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* MTModuleKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTModuleKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +193,6 @@
 				C27C89533593B6F8E0F1ACA5 /* Pods-MTModuleKit_Tests.debug.xcconfig */,
 				A31D12FAF077CD304A491921 /* Pods-MTModuleKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

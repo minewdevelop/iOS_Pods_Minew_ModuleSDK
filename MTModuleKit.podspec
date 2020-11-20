@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MTModuleKit'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of MTModuleKit.'
 
 # This description is used to generate tags and improve search results.
@@ -21,22 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xxdeer/MTModuleKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/minewdevelop/iOS_Pods_Minew_ModuleSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xxdeer' => 'rex.xie@minewtech.com' }
-  s.source           = { :git => 'https://github.com/xxdeer/MTModuleKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.author           = { 'rex.xie' => 'rex.xie@minewtech.com' }
+  s.source           = { :git => 'https://github.com/minewdevelop/iOS_Pods_Minew_ModuleSDK.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'MTModuleKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MTModuleKit' => ['MTModuleKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.vendored_frameworks = 'MTModuleKit/Frameworks/*.{framework}'
 end
